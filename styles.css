@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header, .footer{
+    height: 100px;
+    background-color: beige;
+}
+
+.main-div{
+    height: 1000px;
+    background-color: bisque;
+}
+
+.first-div{
+    height: 80px;
+    width: 150px;
+    background-color: brown;
+    top: 0;
+}
+
+.second-div{
+    height: 80px;
+    width: 50px;
+    background-color: coral;
+    position: absolute;
+    /* z-index: 100; */
+}
